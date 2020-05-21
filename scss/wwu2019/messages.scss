@@ -74,8 +74,15 @@ $wwu-messages-width: 560px;
     }
 }
 
-.w50rem {
-    width: 50rem;
+.path-message {
+    .w30rem {
+        width: 29rem;
+    }
+
+    #region-main {
+        overflow: hidden;
+        border: 1px solid rgba(0, 0, 0, 0.125);
+    }
 }
 
 .modal-backdrop {
